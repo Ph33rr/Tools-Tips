@@ -12,7 +12,7 @@ Help()
    echo""
    echo "                                @infosec_90"
    echo""
-   echo "         Syntax: $0 -h > events.txt"
+   echo "         Syntax: $0 -m > events.txt"
    echo "                 $0 -m | anytool   "
    echo ""
    echo "         options:"
