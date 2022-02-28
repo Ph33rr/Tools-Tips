@@ -5,7 +5,8 @@ This tool
 
 
 ## install :
-
+ 
+ 
 ```bash
 wget https://raw.githubusercontent.com/Ph33rr/Tools-Tips/main/xss/wordxss.sh
 chmod 755 wordxss.sh
@@ -27,4 +28,5 @@ fuzz -w elemnts.txt -u 'https://www.example.com/"><FUZZ onerror=a>' -fc 403 -c
 ### NOTE :
 
 [MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/Events)
+
 [MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
