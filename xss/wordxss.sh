@@ -37,7 +37,7 @@ requestEvent="$(curl -s https://developer.mozilla.org/en-US/docs/Web/Events)"
    
    }
    
-#Request the MDN Documentation with all the Event Handlers
+#Request the MDN Documentation with all the Elements
 
 Elements(){
 requestElement="$(curl -s https://developer.mozilla.org/en-US/docs/Web/HTML/Element)"
@@ -61,7 +61,7 @@ while getopts "h|e|m|" option; do
       e) # List Event
 	 Events|ABC
          ;;
-      m) # display Help
+      m) # List Elements
          Elements|ABC
 	  ;;
      \?) # Invalid option
