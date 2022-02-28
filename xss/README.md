@@ -16,7 +16,10 @@ chmod 755 wordxss.sh
 
 ## USE :
 
-
+```bash
+./wordxss.sh -m > events.txt
+./wordxss.sh -m | anytool
+```
 ```bash
 fuzz -w events.txt -u 'https://www.example.com/"><svg FUZZ=a>' -fc 403 -c
 ```
