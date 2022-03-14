@@ -1,5 +1,6 @@
 require 'net/http'
-uri = URI("https://google.com")
+uri = URI("https://google.com/file.js")
+#uri = URI("https://google.com/file.css") # or use key or any ext 
 req = Net::HTTP::Get.new(uri)
 req["Accept-Encoding"] = "gzip,deflate,br"
 num = 200
